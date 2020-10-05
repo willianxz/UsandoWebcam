@@ -9,7 +9,7 @@ function setup() {
 function draw(){
   background(200);
   image(capture,10, 60);
-  filter('INVERT');
+  filter(INVERT);
   image(capture,width/2 + 20, 60); 
 }
 
